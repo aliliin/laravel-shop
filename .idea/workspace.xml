@@ -14,21 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/web.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="27" column="118" lean-forward="false" selection-start-line="27" selection-start-column="118" selection-end-line="27" selection-end-column="118" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="create_and_edit.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/user_addresses/create_and_edit.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="886">
-              <caret line="96" column="53" lean-forward="true" selection-start-line="96" selection-start-column="53" selection-end-line="96" selection-end-column="53" />
+              <caret line="96" column="53" lean-forward="false" selection-start-line="96" selection-start-column="53" selection-end-line="96" selection-end-column="53" />
               <folding>
                 <marker date="1551855560517" expanded="true" signature="9:22" ph="..." />
                 <marker date="1551855560517" expanded="true" signature="33:78" ph="..." />
@@ -56,7 +46,7 @@
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserAddressesController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="600">
-              <caret line="61" column="5" lean-forward="true" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
+              <caret line="61" column="5" lean-forward="false" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
               <folding>
                 <element signature="e#40#81#0#PHP" expanded="true" />
               </folding>
@@ -68,7 +58,7 @@
         <entry file="file://$PROJECT_DIR$/app/Policies/UserAddressPolicy.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="687">
-              <caret line="23" column="46" lean-forward="true" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
+              <caret line="23" column="46" lean-forward="false" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
               <folding>
                 <element signature="e#32#52#0#PHP" expanded="true" />
               </folding>
@@ -80,7 +70,7 @@
         <entry file="file://$PROJECT_DIR$/app/Providers/AuthServiceProvider.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="450">
-              <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+              <caret line="21" column="7" lean-forward="false" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
               <folding>
                 <element signature="e#33#60#0#PHP" expanded="true" />
               </folding>
@@ -118,7 +108,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="600">
@@ -134,6 +124,16 @@
                 <marker date="1551856759699" expanded="true" signature="641:659" ph="..." />
                 <marker date="1551856759699" expanded="true" signature="680:696" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config/admin.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="690">
+              <caret line="186" column="2" lean-forward="false" selection-start-line="186" selection-start-column="2" selection-end-line="186" selection-end-column="2" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -226,6 +226,7 @@
         <option value="$PROJECT_DIR$/app/Policies/UserAddressPolicy.php" />
         <option value="$PROJECT_DIR$/app/Providers/AuthServiceProvider.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/UserAddressesController.php" />
+        <option value="$PROJECT_DIR$/config/admin.php" />
       </list>
     </option>
   </component>
@@ -334,9 +335,14 @@
       <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
       <path value="$PROJECT_DIR$/vendor/overtrue/laravel-lang" />
       <path value="$PROJECT_DIR$/vendor/caouecs/laravel-lang" />
+      <path value="$PROJECT_DIR$/vendor/encore/laravel-admin" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dom-crawler" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="117" />
     <option name="y" value="26" />
     <option name="width" value="1400" />
@@ -514,15 +520,15 @@
       <updated>1551771305904</updated>
       <workItem from="1551771308325" duration="1889000" />
       <workItem from="1551773902891" duration="103000" />
-      <workItem from="1551833550118" duration="16817000" />
+      <workItem from="1551833550118" duration="17487000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23000000" />
+    <option name="totallyTimeSpent" value="23670000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -562,13 +568,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-180">
@@ -949,7 +948,7 @@
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserAddressesController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
-          <caret line="61" column="5" lean-forward="true" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
+          <caret line="61" column="5" lean-forward="false" selection-start-line="61" selection-start-column="5" selection-end-line="61" selection-end-column="5" />
           <folding>
             <element signature="e#40#81#0#PHP" expanded="true" />
           </folding>
@@ -959,7 +958,7 @@
     <entry file="file://$PROJECT_DIR$/app/Providers/AuthServiceProvider.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
-          <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+          <caret line="21" column="7" lean-forward="false" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
           <folding>
             <element signature="e#33#60#0#PHP" expanded="true" />
           </folding>
@@ -969,7 +968,7 @@
     <entry file="file://$PROJECT_DIR$/app/Policies/UserAddressPolicy.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="687">
-          <caret line="23" column="46" lean-forward="true" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
+          <caret line="23" column="46" lean-forward="false" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
           <folding>
             <element signature="e#32#52#0#PHP" expanded="true" />
           </folding>
@@ -979,7 +978,7 @@
     <entry file="file://$PROJECT_DIR$/resources/views/user_addresses/create_and_edit.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="886">
-          <caret line="96" column="53" lean-forward="true" selection-start-line="96" selection-start-column="53" selection-end-line="96" selection-end-column="53" />
+          <caret line="96" column="53" lean-forward="false" selection-start-line="96" selection-start-column="53" selection-end-line="96" selection-end-column="53" />
           <folding>
             <marker date="1551855560517" expanded="true" signature="9:22" ph="..." />
             <marker date="1551855560517" expanded="true" signature="33:78" ph="..." />
@@ -1038,6 +1037,14 @@
             <marker date="1551856759699" expanded="true" signature="641:659" ph="..." />
             <marker date="1551856759699" expanded="true" signature="680:696" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="186" column="2" lean-forward="false" selection-start-line="186" selection-start-column="2" selection-end-line="186" selection-end-column="2" />
+          <folding />
         </state>
       </provider>
     </entry>
