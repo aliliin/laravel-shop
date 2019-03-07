@@ -88,7 +88,7 @@ class ProductsController extends Controller
 
         return $grid;
     }
-    
+
     /**
      * Make a form builder.
      *
