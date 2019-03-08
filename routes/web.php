@@ -13,11 +13,12 @@
 
 Route::redirect('/', '/products')->name('root');
 Route::get('products', 'ProductsController@index')->name('products.index');
-Route::get('products/{product}', 'ProductsController@show')->name('products.show');
+
 Auth::routes(['verify' => true]);
 
 // auth 中间件代表需要登录，verified中间件代表需要经过邮箱验证
 Route::group(['middleware' => ['auth', 'verified']], function() {
+
     //用户地址列表
     Route::get('user_addresses', 'UserAddressesController@index')->name('user_addresses.index');
     //添加用户地址
@@ -31,4 +32,6 @@ Route::group(['middleware' => ['auth', 'verified']], function() {
     //用户收藏
     Route::post('products/{product}/favorite', 'ProductsController@favor')->name('products.favor');
     Route::delete('products/{product}/favorite', 'ProductsController@disfavor')->name('products.disfavor');
+    Route::get('products/favorites', 'ProductsController@favorites')->name('products.favorites');
 });
+Route::get('products/{product}', 'ProductsController@show')->name('products.show');
