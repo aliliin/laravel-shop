@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests\OrderRequest;
+use App\Models\OrderItem;
 use App\Models\ProductSku;
 use App\Models\UserAddress;
 use App\Models\Order;
@@ -41,7 +42,11 @@ class OrdersController extends Controller
             foreach ($items as $data) {
                 $sku  = ProductSku::find($data['sku_id']);
                 // 创建一个 OrderItem 并直接与当前订单关联
-                $item = $order->items()->make([
+               /*$item = new OrderItem();
+               $item->order()->associate($order);
+               $item->amount = $data['amount'] ;
+               $item->price = $sku->price;*/
+                 $item = $order->items()->make([
                     'amount' => $data['amount'],
                     'price'  => $sku->price,
                 ]);
