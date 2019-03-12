@@ -16,7 +16,7 @@ use App\Services\OrderService;
 
 class OrdersController extends Controller
 {
-    public function store(OrderRequest $request, OrderService $orderService)    
+    public function store(OrderRequest $request, OrderService $orderService)
     {
         $user    = $request->user();
         $address = UserAddress::find($request->input('address_id'));
