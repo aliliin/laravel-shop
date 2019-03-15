@@ -46,6 +46,7 @@ class Order extends Model
         'ship_status',
         'ship_data',
         'extra',
+        'coupon_code_id'
     ];
 
     protected $casts = [
@@ -112,6 +113,10 @@ class Order extends Model
         } while (self::query()->where('refund_no', $no)->exists());
 
         return $no;
+    }
+    public function couponCode()
+    {
+        return $this->belongsTo(CouponCode::class);
     }
 
 }
